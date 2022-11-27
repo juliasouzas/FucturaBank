@@ -20,7 +20,7 @@ public class ProgramaBanco {
 		double depositoInicial = 0;
 	
 		do {
-			System.out.println("*********************************************************");
+			System.out.println("|-------------------------------------------------------|");
 			System.out.println("|           Bem-vindo(a) a FucturaBank!                 |");
 			System.out.println("|           Selecione a opção desejada:                 |");
 			System.out.println("|                                                       |");
@@ -33,7 +33,7 @@ public class ProgramaBanco {
 			System.out.println("|           7 - Resgatar da Conta Poupança              |");
 			System.out.println("|           0 - Sair                                    |");
 			System.out.println("|                                                       |");
-			System.out.println("*********************************************************");
+			System.out.println("---------------------------------------------------------");
 			
 			
 			opcao = sc.nextInt();
